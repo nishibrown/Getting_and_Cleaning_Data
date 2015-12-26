@@ -92,10 +92,12 @@ The following files are available for the train and test data. Their description
 ##Data Cleaning
 
 In order to generate the first tidy data sets for this assignment, I performed the following data manipulations:
++ Read in features data, activity labels, test data, and training data
 + Utilize descriptive variable names
 + Merge all data into one data set to combine the individual pieces of the test and training data sets.
 + Extract only the mean and statndard variation for each variable
-+ Utilize descriptive activity names
++ Add descriptive activity names
 
 In order to generate the second tidy data set (computing the average of each variable for each activity and each subject), I performed the following data manipulations:
-
++ Created groups based on both activity description and subject
++ Summarized each group by providing the mean for each variable
